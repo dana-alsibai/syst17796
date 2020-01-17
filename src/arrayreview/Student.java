@@ -20,6 +20,15 @@ public class Student {
     
     private String name;
     private String studentId;
+    private String program;
+
+    public void setProgram(String program) {
+        this.program = program;
+    }
+
+    public String getProgram() {
+        return program;
+    }
     
     /**
      * A constructor that takes in both parameters
